@@ -10,6 +10,10 @@
   display: none;
 }
 
-.form-group has-error {
+.has-error {
   display: none;
+}
+
+.red {
+  border: 1px solid red;
 }

@@ -14,15 +14,43 @@ $(document).ready(function() {
     $(".celebrity3").show();
   }
 
-  $(animal).empty() {
-    $(".form-group has-error").show();
+  if(animal) {
+    }else{
+    $(".form-group.has-error").show();
+    $("#animal").addClass("red");
   }
 
+  if(food) {
+    }else{
+    $(".form-group.has-error").show();
+    $("#food").addClass("red");
+  }
+
+  if(hobby) {
+    }else{
+    $(".form-group.has-error").show();
+    $("#hobby").addClass("red");
+  }
+
+  // $('form').validate( {
+  //   rules: {
+  //     animal: {
+  //         required: true
+  //       }
+  //
+  //     }
+  //   })
+  //
   });
 });
 
 
-
+//food: {
+//    required: true
+//   }
+// hobby: {
+//     required: true
+//   }
     //
     //
     // $(".parkHeight").text(height);
