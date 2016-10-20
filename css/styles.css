@@ -9,3 +9,7 @@
 .celebrity3 {
   display: none;
 }
+
+.form-group has-error {
+  display: none;
+}

@@ -6,13 +6,18 @@ $(document).ready(function() {
     var hobby = parseInt($("#hobby").val());
     var total = animal + food + hobby;
 
-  if (total <= 5) {
+  if (total <= 5 ) {
     $(".celebrity1").show();
     } else if (total > 5 && total <= 10) {
     $(".celebrity2").show();
   } else if (total > 10 && total <= 15) {
     $(".celebrity3").show();
   }
+
+  $(animal).empty() {
+    $(".form-group has-error").show();
+  }
+
   });
 });
 
