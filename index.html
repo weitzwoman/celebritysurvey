@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Celebrity Matchmaker</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Celebrity Matchmaker!</h1>
+      <h2>Welcome to the Celebrity Matchmaker. Tell us about some of your favorite things, and we'll tell you who is your <em>destiny</em>!</h2>
+        <form id="celebrityQ">
+          <label for "animal" placeholder="choose favorite">What is your favorite animal?</label>
+          <select id="animal" class="form-control">
+            <option value="" selected disabled>Please select</option>
+            <option value="1">Lizard</option>
+            <option value="2">Koala</option>
+            <option value="3">Grizzly Bear</option>
+            <option value="4">Baby Seal</option>
+            <option value="5">Eagle</option>
+          </select>
+          <label for "food">What is your favorite food?</label>
+          <select id="food" class="form-control">
+            <option value="" selected disabled>Please select</option>
+            <option value="1">Pizza</option>
+            <option value="2">Tacos</option>
+            <option value="3">Sushi</option>
+            <option value="4">Quinoa</option>
+            <option value="5">Ice Cream</option>
+          </select>
+          <label for "hobby">What is your favorite hobby?</label>
+          <select id="hobby" class="form-control">
+            <option value="" selected disabled>Please select</option>
+            <option value="1">Hiking</option>
+            <option value="2">Cooking</option>
+            <option value="3">Surfing</option>
+            <option value="4">Pottery</option>
+            <option value="5">Cleaning</option>
+          </select>
+          <br>
+          <button type="submit" class="btn btn-danger">Submit</button>
+          <br>
+        </form>
+        <div class="celebrityMatch">
+          <p class="celebrity1">You belong with Madonna!
+            <img src="img/madonna.jpg" alt="photo of Madonna"></p>
+          <p class="celebrity2">You belong with Peter Lorre!
+            <img src="img/peter.jpg" alt="photo of Peter Lorre"></p>
+          <p class="celebrity3">You belong with Patrick Swayze!
+            <img src="img/patrick.jpg" alt="photo of Patrick Swayze"></p>
+        </div>
+      </div>
+  </body>
+</html>
